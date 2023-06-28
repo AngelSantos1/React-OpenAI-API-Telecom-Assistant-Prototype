@@ -1,0 +1,4 @@
+
+.env
+/node_modules
+csi-chat-gpt-app/public/favicon.ico
