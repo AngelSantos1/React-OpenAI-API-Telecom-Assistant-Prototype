@@ -1,4 +1,4 @@
-# React-OpenAI-API-Telecom-Assistant-Prototype README WIP
+# React-OpenAI-API-Telecom-Assistant-Prototype README
 Application Setup
 
 Requirements:
