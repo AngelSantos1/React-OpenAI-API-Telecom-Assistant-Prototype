@@ -38,7 +38,7 @@ export default function ChatGPT() {
               <div className="chatbox" >
                   <div className="bg-telecomTurquoise  mt-2 p-1 border-5">
                       <p className="text-light">
-                          {response ? response : "Ask me anything..."}
+                          {response ? response : "How can I help?"}
                       </p>
                   </div>
                   <form className="form" onSubmit={handleSubmit}>
