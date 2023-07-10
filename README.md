@@ -27,21 +27,25 @@ https://platform.openai.com/docs
    
 6. We need to build dependencies via 'npm install' both in the (Backend) project root and (Frontend) '\csi-chat-gpt-app' directories. Type and enter:
 
-   *Frontend* 
+   *Frontend*   
    `cd \csi-chat-gpt-app`
+   
    `npm install`
    
    *Backend*     
    `cd \React-OpenAI-API-Telecom-Assistant-Prototype`
+   
    `npm install`
    
 
 8. Within the CLI terminal, in root directory (Backend), type and enter:
+   
    `node server.js`
    
    This will start the server for API calls to be made.
 
-10. To start the Frontend application, within the respective directory, in the CLI, type and enter:
+9. To start the Frontend application, within the respective directory, in the CLI, type and enter:
+ 
    `npm start`
 
    This will start our React application.
