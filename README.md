@@ -1,15 +1,15 @@
-# React-OpenAI-API-Telecom-Assistant-Prototype README
-Application Setup
+# React-OpenAI-API-Telecom-Assistant-Prototype
+### Requirements:
+ * Basic understanding of GitHub and OpenAI API documentation  
+ * Visual Studio Code or preffered IDE/Programming Tool
+ * Powershell or preffered CLI Terminal
+ * OpenAI API Account to Generate API Key ($1-5 USD for Usage/Billing)
 
-Requirements:
-Basic understanding of GitHub and OpenAI API documentation  
-Visual Studio Code or preffered IDE/Programming Tool
-Powershell or preffered CLI Terminal
-OpenAI API Account to Generate API Key ($1-5 USD for Usage/Billing)
-
-Resources:
+### Resources:
 OpenAI API Documentation
 https://platform.openai.com/docs
+
+### Setup
 
 1. Clone Repository to Local environment.
 
@@ -38,9 +38,10 @@ https://platform.openai.com/docs
 
 8. Within the CLI terminal, in root directory (Backend), type and enter:
    `node server.js`
-This will start the server for API calls to be made.
+   
+   This will start the server for API calls to be made.
 
-9. To start the Frontend application, within the respective directory, in the CLI, type and enter:
+10. To start the Frontend application, within the respective directory, in the CLI, type and enter:
    `npm start`
 
-This will start our React application.
+   This will start our React application.
