@@ -19,13 +19,18 @@ app.use(cors());
 app.post("/chat",async (req, res) => {
     const {prompt} = req.body;
 
-    const completion = await openai.createCompletion({
-        model: "text-davinci-003",
-        max_tokens: 512,
-        temperature:0,
-        prompt: prompt,
+    const completion = await openai.ChatCompletion.create({
+        model: "gpt-4.5-turbo",
+        messages: [
+            {role: "system", content: "You are a helpful IT customer service professional."},
+            {role: "user", content: prompt},
+        ],
     });
-    res.send(completion.data.choices[0].text);
+
+    const message = completion.data.messages;
+    const assistantMessage = message[message.length - 1];
+
+    res.send(assistantMessage.content);
 });
 
 const PORT = 8020;
